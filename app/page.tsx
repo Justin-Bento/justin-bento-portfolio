@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
     <>
@@ -12,6 +14,10 @@ export default function Home() {
               spent all day lounging on his throne. One day, his advisors came to him
               with a problem: the kingdom was running out of money.
             </p>
+            <div className="">
+              <Button>Explore My Portfolio</Button>
+              <Button variant="outline">Let's Connect</Button>
+            </div>
           </div>
         </section>
       </main>
