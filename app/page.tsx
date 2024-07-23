@@ -7,7 +7,7 @@ export default function Home() {
         <section className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="min-h-dvh grid place-content-center">
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-              The Joke Tax Chronicles
+              From Designs to Dynamic Websites: Join Me On My Coding Adventure!
             </h1>
             <p className="text-xl leading-7 [&:not(:first-child)]:mt-3">
               Once upon a time, in a far-off land, there was a very lazy king who
