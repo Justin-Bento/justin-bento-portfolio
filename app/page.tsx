@@ -6,7 +6,7 @@ export default function Home() {
       <main className="">
         <section className="mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="min-h-dvh grid place-content-center">
-            <div className="">
+            <div className="max-w-4xl mx-auto">
               <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
                 From Designs to Dynamic Websites: Join Me On My Coding Adventure!
               </h1>
