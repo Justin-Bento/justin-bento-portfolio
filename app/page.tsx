@@ -27,7 +27,7 @@ export function HomeContent() {
         interactivity!
       </p>
       <div className="flex items-center flex-col lg:flex-row lg:justify-center gap-4 mt-8">
-        <Button>Explore My Portfolio</Button>
+        <Button variant="brand">Explore My Portfolio</Button>
         <Button variant="outline">Let's Connect</Button>
       </div>
     </article>
