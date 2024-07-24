@@ -28,8 +28,8 @@ export function HomeContent() {
         interactivity!
       </p>
       <div className="flex items-center flex-col md:flex-row md:justify-center gap-4 mt-8">
-        <Button variant="brand">Explore My Portfolio</Button>
-        <Button variant="outline">Let's Connect</Button>
+        <Button variant="brand" className="w-full md:w-auto">Explore My Portfolio</Button>
+        <Button variant="outline" className="w-full md:w-auto">Let's Connect</Button>
       </div>
     </article>
   );
