@@ -17,6 +17,7 @@ export default function Home() {
 export function HomeContent() {
   return (
     <article className="max-w-4xl mx-auto lg:text-center">
+      <p className="text-base">Hi, I'm Justin Bento.</p>
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         From Designs to Dynamic Websites: Join Me On My Coding Adventure!
       </h1>
