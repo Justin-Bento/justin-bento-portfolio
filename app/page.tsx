@@ -21,7 +21,7 @@ export function HomeContent() {
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         From Designs to Dynamic Websites: Join Me On My Coding Adventure!
       </h1>
-      <p className="text-xl leading-7 [&:not(:first-child)]:mt-3">
+      <p className="text-xl leading-7 [&:not(:first-child)]:mt-3 lg:text-balance">
         I'm a Multimedia Designer venturing into the field of Front-End Development. My goal is to blend my knowledge of accessibility
         design with the power of code to create engaging websites that everyone can enjoy. Join me on this journey of creativity and
         interactivity!
