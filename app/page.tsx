@@ -16,7 +16,7 @@ export default function Home() {
 
 export function HomeContent() {
   return (
-    <article className="max-w-4xl mx-auto md:text-center text-balance">
+    <article className="max-w-4xl mx-auto md:text-center sm:text-balance">
       <div className="bg-easternblue-500 rounded-full size-20 md:mx-auto mb-4 ring ring-neutral-800"></div>
       <p className="text-base">Hi, I'm Justin Bento.</p>
       <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
