@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <main className="">
-        <section className="mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <section className="mx-auto max-w-7xl p-4 sm:px-6 lg:px-8">
           <div className="min-h-dvh grid place-content-center">
             <HomeContent />
           </div>
