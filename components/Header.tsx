@@ -15,18 +15,26 @@ export default function header() {
           </Button>
         </li>
         <li className="flex md:items-center flex-col md:flex-row justify-center">
-          <Button variant="ghost" size="sm" className="w-full md:w-auto">
-            Home
-          </Button>
-          <Button variant="ghost" size="sm" className="w-full md:w-auto">
-            About
-          </Button>
-          <Button variant="ghost" size="sm" className="w-full md:w-auto">
-            Projects
-          </Button>
-          <Button variant="ghost" size="sm" className="w-full md:w-auto">
-            Contact
-          </Button>
+          <a href="/">
+            <Button variant="ghost" size="sm" className="w-full md:w-auto">
+              Home
+            </Button>
+          </a>
+          <a href="/about">
+            <Button variant="ghost" size="sm" className="w-full md:w-auto">
+              About
+            </Button>
+          </a>
+          <a href="/projects">
+            <Button variant="ghost" size="sm" className="w-full md:w-auto">
+              Projects
+            </Button>
+          </a>
+          <a href="/contacts">
+            <Button variant="ghost" size="sm" className="w-full md:w-auto">
+              Contact
+            </Button>
+          </a>
         </li>
         <li className="flex items-center justify-end">
           <Button variant="secondaryColor" size="sm" className="inline-flex items-center gap-1 w-full md:w-auto">
