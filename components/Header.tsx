@@ -25,7 +25,7 @@ export default function header() {
           </Button>
         </li>
         <li className="flex items-center justify-end">
-          <Button variant="secondary" size="sm" className="inline-flex items-center gap-1">
+          <Button variant="secondaryColor" size="sm" className="inline-flex items-center gap-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="stroke-black stroke-width-1 size-3"
