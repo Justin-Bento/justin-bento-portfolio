@@ -5,12 +5,12 @@ export default function header() {
   return (
     <header className="overflow-hidden bg-white shadow py-4 sm:py-6">
       <ul role="list" className="container mx-auto grid grid-cols-1 gap-4 md:grid-cols-3">
-        <li className="flex items-start justify-between">
+        <li className="flex items-center justify-between">
           <Button variant="ghost" size="sm">
             JB
           </Button>
         </li>
-        <li className="flex items-start justify-center">
+        <li className="flex items-center justify-center">
           <Button variant="ghost" size="sm">
             Home
           </Button>
@@ -24,7 +24,7 @@ export default function header() {
             Contact
           </Button>
         </li>
-        <li className="flex items-start justify-end">
+        <li className="flex items-center justify-end">
           <Button variant="secondary" size="sm">
             GitHub
           </Button>
