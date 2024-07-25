@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
+import { Logo } from './Logo';
 
 export default function header() {
   return (
@@ -7,7 +8,7 @@ export default function header() {
       <ul role="list" className="container mx-auto grid grid-cols-1 gap-4 md:grid-cols-3">
         <li className="flex items-center justify-between">
           <Button variant="ghost" size="sm">
-            JB
+            <Logo />
           </Button>
         </li>
         <li className="flex items-center justify-center">
