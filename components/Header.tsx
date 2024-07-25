@@ -10,23 +10,26 @@ export default function header() {
           <Button variant="ghost" size="sm">
             <Logo />
           </Button>
+          <Button variant="outline" className="md:hidden">
+            M
+          </Button>
         </li>
-        <li className="flex items-center justify-center">
-          <Button variant="ghost" size="sm">
+        <li className="flex md:items-center flex-col md:flex-row justify-center">
+          <Button variant="ghost" size="sm" className="w-full md:w-auto">
             Home
           </Button>
-          <Button variant="ghost" size="sm">
+          <Button variant="ghost" size="sm" className="w-full md:w-auto">
             About
           </Button>
-          <Button variant="ghost" size="sm">
+          <Button variant="ghost" size="sm" className="w-full md:w-auto">
             Projects
           </Button>
-          <Button variant="ghost" size="sm">
+          <Button variant="ghost" size="sm" className="w-full md:w-auto">
             Contact
           </Button>
         </li>
         <li className="flex items-center justify-end">
-          <Button variant="secondaryColor" size="sm" className="inline-flex items-center gap-1">
+          <Button variant="secondaryColor" size="sm" className="inline-flex items-center gap-1 w-full md:w-auto">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="stroke-black stroke-width-1 size-3"
