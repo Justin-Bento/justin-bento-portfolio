@@ -7,9 +7,9 @@ export default function header() {
     <header className="overflow-hidden bg-white shadow py-4 sm:py-6">
       <ul role="list" className="container mx-auto grid grid-cols-1 gap-4 md:grid-cols-3">
         <li className="flex items-center justify-between">
-          <Button variant="ghost" size="sm">
+          <a href="/">
             <Logo />
-          </Button>
+          </a>
           <Button variant="outline" className="md:hidden">
             M
           </Button>
