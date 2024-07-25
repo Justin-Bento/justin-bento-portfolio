@@ -3,7 +3,11 @@ import React from 'react';
 export default function header() {
   return (
     <header>
-      <p>header</p>
+      <ul role="list" className="">
+        <li>Section 1</li>
+        <li>Section 2</li>
+        <li>Section 3</li>
+      </ul>
     </header>
   );
 }
