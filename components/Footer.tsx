@@ -8,35 +8,35 @@ export default function Footer() {
         <ul role="list" className="flex items-center list-none text-white">
           <li>
             <a href="www.example_website.com">
-              <Button variant="ghost" size="icon">
+              <Button variant="outline_dark" size="icon">
                 I1
               </Button>
             </a>
           </li>
           <li>
             <a href="www.example_website.com">
-              <Button variant="ghost" size="icon">
+              <Button variant="outline_dark" size="icon">
                 I2
               </Button>
             </a>
           </li>
           <li>
             <a href="www.example_website.com">
-              <Button variant="ghost" size="icon">
+              <Button variant="outline_dark" size="icon">
                 I3
               </Button>
             </a>
           </li>
           <li>
             <a href="www.example_website.com">
-              <Button variant="ghost" size="icon">
+              <Button variant="outline_dark" size="icon">
                 I4
               </Button>
             </a>
           </li>
           <li>
             <a href="www.example_website.com">
-              <Button variant="ghost" size="icon">
+              <Button variant="outline_dark" size="icon">
                 I5
               </Button>
             </a>
