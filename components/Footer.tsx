@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-easternblue-700 overflow-hidden">
       <div className="container mx-auto py-4 sm:py-6 flex flex-col md:flex-row md:items-center justify-between">
         <p className="text-white">Some content or remove this item</p>
-        <ul role="list" className="flex items-center list-none text-white">
+        <ul role="list" className="flex items-center gap-4 list-none text-white">
           <li>
             <a href="www.example_website.com">
               <Button variant="outline_dark" size="icon">
