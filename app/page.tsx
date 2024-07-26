@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/button';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import BackgroundPattern from '@/components/BackgroundPattern';
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
           </div>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
