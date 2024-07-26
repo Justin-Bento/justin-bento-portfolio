@@ -64,7 +64,7 @@ function BackgroundPattern() {
         <circle r="41.635" cx="1147.41" cy="187.11" fill="#3997a1"></circle>
       </g>
       <defs>
-        <clipPath id="SvgjsClipPath1083">
+        <clipPath id="SvgClipPath1083">
           <rect width="1440" height="560" x="0" y="0"></rect>
         </clipPath>
       </defs>
