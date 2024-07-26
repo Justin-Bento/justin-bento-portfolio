@@ -1,5 +1,5 @@
 export default function Footer() {
   return (
-    <footer>Footer</footer>
+    <footer className="bg-easternblue-700 overflow-hidden">Footer</footer>
   )
 }
